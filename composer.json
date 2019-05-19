@@ -1,0 +1,45 @@
+{
+  "name": "jamalosm/laravel-config-writer",
+  "type": "library",
+  "description": "Laravel config writer",
+  "keywords": [
+    "laravel",
+    "config",
+    "export",
+    "var-export",
+    "illuminate",
+    "jamalosm",
+    "b1",
+    "bone",
+    "b-one"
+  ],
+  "homepage": "https://b-one.ru",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jamal Osmanov",
+      "email": "admin@b-one.ru"
+    }
+  ],
+  "require": {
+    "php": "^7.1.3",
+    "illuminate/support": "^5.5, <5.9",
+    "jamalosm/config-writer": "1.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "BONE\\LaravelConfigWriter\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "BONE\\LaravelConfigWriter\\Providers\\LaravelConfigWriterProvider"
+      ],
+      "aliases": {
+        "LaravelConfigWriter": "BONE\\LaravelConfigWriter\\Facades\\LaravelConfigWriter"
+      }
+    }
+  },
+  "minimum-stability": "dev"
+}
