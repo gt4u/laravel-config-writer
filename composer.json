@@ -22,8 +22,7 @@
     }
   ],
   "require": {
-    "php": "^7.1.3",
-    "illuminate/support": "^5.5, <5.9",
+    "php": "^7.2",
     "jamalosm/config-writer": "1.*"
   },
   "autoload": {
